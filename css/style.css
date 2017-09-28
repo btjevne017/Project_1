@@ -1,3 +1,15 @@
 body {
-    background-color: red;
+    background-color: none;
+}
+#images/space.jpg {
+        width: 990px;
+}
+.image-2 {
+   WIDTH: 400px; 
+}
+.image-3 {
+       width: 480px; 
+}
+.images/milkyway.jpg {
+       width: 510px; 
 }
