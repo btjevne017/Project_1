@@ -1,15 +1,27 @@
+#header {
+    text-align: right;
+}
 body {
     background-color: none;
 }
-.images/space.jpg > img {
-       max-width: 990px;
+.space >img {
+    max-width: 750px;
+    height: 500px;
+    text-align: center;
 }
-.image-2 > img {
-   WIDTH: 400px; 
+.earth >img {
+    width: 510px;
+    height: 350px;
 }
-.image-3 > img {
-       width: 480px; 
+.solar_system >img{
+    width: 510px;
+    height: 350px;
 }
-.images/milkyway.jpg > img {
-       width: 510px; 
+.milkyway >img {
+    width: 510px;
+    height: 350px;
+}
+.side-by-side {
+    display: flex;
+    border-right:
 }
