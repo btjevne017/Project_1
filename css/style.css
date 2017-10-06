@@ -6,6 +6,9 @@ header {
     margin-left: 150px;
     margin-right: 150px;
 }
+.row >img {
+   
+}
 header >img {
   margin-right: 1300px;
 }
