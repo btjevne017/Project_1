@@ -1,27 +1,42 @@
-#header {
+header {
     text-align: right;
+    align-content: center;
+    width: 1600px;
+    border-bottom-style: solid;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+header >img {
+  margin-right: 1300px;
 }
 body {
     background-color: none;
 }
+h2 {
+     margin-left: 200px;
+}
 .space >img {
-    max-width: 750px;
+    max-width: 900px;
     height: 500px;
-    text-align: center;
+    margin-left: 500px;
+    padding-top: 20px;
 }
 .earth >img {
-    width: 510px;
+    width: 500px;
     height: 350px;
+    padding-right: 25px;
+    padding-left: 200px;
 }
 .solar_system >img{
-    width: 510px;
+    width: 500px;
     height: 350px;
+    padding-right: 25px;
 }
 .milkyway >img {
-    width: 510px;
+    width: 500px;
     height: 350px;
+    padding-right: 200px;
 }
 .side-by-side {
     display: flex;
-    border-right:
 }
