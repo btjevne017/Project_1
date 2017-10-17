@@ -33,20 +33,27 @@
        <h2>Featured</h2>
         <div class="side-by-side">
        <div class="earth">
-    <img src="images/earth.jpg">
+    <img id="Earth_modal" src="images/earth.jpg" alt="Planet Earth" width="300" height="200">
            <h3>Earth</h3>
+           <div id="Earthmodal" class="modal">
+           <span class="close">&times;</span>
+              <img class="modal-content" id="img01">
+                <div id="caption"></div>
+           </div>
              </div>
-        <div class="solar_system">
+        <div id="Solarsystem_modal" class="solar_system">
     <img src="images/solar_system.jpg">
             <h4>Solar system</h4>
             </div>
-        <div class="milkyway">
+        <div id="Milkyway_modal" class="milkyway">
     <img src="images/milkyway.jpg">
            <h5>Milky Way</h5>
       </div>
 </div>
     </body>
 <footer>By Braeden Jevne</footer>
+    
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="js/bootstrap.min.css"></script>
+<script src="js/main.js"></script>
 </html>
