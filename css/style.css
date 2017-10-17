@@ -52,7 +52,7 @@ h2 {
 #Earth_modal:hover {opacity: 0.7;}
 /* The Modal (background) */
 .modal {
-    display: none; /* Hidden by default */
+    display: none;  /*Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
     padding-top: 100px; /* Location of the box */

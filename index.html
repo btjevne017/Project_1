@@ -32,28 +32,68 @@
         </div>
        <h2>Featured</h2>
         <div class="side-by-side">
-       <div class="earth">
-    <img id="Earth_modal" src="images/earth.jpg" alt="Planet Earth" width="300" height="200">
+       <div class="earth" >
+    <img src="images/earth.jpg" data-toggle="modal" data-target="#Earth_modal">
            <h3>Earth</h3>
-           <div id="Earthmodal" class="modal">
-           <span class="close">&times;</span>
-              <img class="modal-content" id="img01">
-                <div id="caption"></div>
-           </div>
              </div>
-        <div id="Solarsystem_modal" class="solar_system">
-    <img src="images/solar_system.jpg">
+        <div class="solar_system">
+    <img src="images/solar_system.jpg" data-toggle="modal" data-target="#Solarsystem_modal">
             <h4>Solar system</h4>
             </div>
-        <div id="Milkyway_modal" class="milkyway">
-    <img src="images/milkyway.jpg">
+        <div class="milkyway">
+    <img src="images/milkyway.jpg" data-toggle="modal" data-target="#milkyway_modal">
            <h5>Milky Way</h5>
       </div>
 </div>
     </body>
 <footer>By Braeden Jevne</footer>
+    <div class="modal fade" id="Earth_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+          <div class='img-modal'>
+       <img src="images/html5.png">
+              </div>
+          <br>
+          <p><strong>HTML5</strong> is a markup language used for structuring and presenting content on the World Wide Web. It is the fifth and current major version of the HTML standard.</p>
+          <p>Source:</p><span><a href='https://developer.mozilla.org/en-us/docs/web/css/css3'>https://developer.org/en-US/docs/web/CCS/CSS3</a></span>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
     
+    <div class="modal fade" id="Solarsystem_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+          <div class='imgmodal2'>
+            <img src="images/css3.png">
+              </div>
+      </div>
+        <br>
+        <p><strong>CSS3 is the latest evolution of the Cascading Style Sheets language and aims at extending CSS2.1. It brings a lot of long-awaited novelties, like rounded corners, shadows, gradients, transitions or animations, as well as new layouts like multi-columns, flexible box or grid layouts.</strong></p>
+        
+        <p>Source:</p><span><a href='https://developer.mozilla.org/en-us/docs/web/css/css3'>https://developer.org/en-US/docs/web/CCS/CSS3</a></span>
+        
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+     
+      </div>
+    </div>
+  </div>
+</div> 
 <script src="js/jquery-3.2.1.min.js"></script>
-<script src="js/bootstrap.min.css"></script>
+<script src="js/bootstrap.min.js"></script>
 <script src="js/main.js"></script>
 </html>
