@@ -1,4 +1,4 @@
-/*
+
 header {
    
 }
@@ -13,6 +13,7 @@ body {
     background-color: none;
 
 }
+/*
 .col-md-6 {
     align-content: center;
     width: 1600px;
@@ -26,6 +27,7 @@ body {
 h1 {
        padding-left: 1060px;
 }
+
 p {
         text-align: right;
 }
